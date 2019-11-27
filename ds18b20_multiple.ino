@@ -12,9 +12,9 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass oneWire reference to DallasTemperature library
 DallasTemperature sensors(&oneWire);
 
-const char* ssid = "TP-LINK_0E82";
-const char* password = "07977862";
-const char* mqtt_server = "192.168.1.3";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
